@@ -9,18 +9,9 @@ It ships with three headless commands:
 | **Epoch → UTC** | Appends a formatted UTC string (`YYYY-MM-DD HH:MM:SS`) to the selected epoch | `1752340800000` | `2025-07-12 20:00:00` |
 | **Epoch ↔ UTC** | Detects the selection and converts the other way | `2025-07-12 20:00:00` → `1752340800000`<br>`1752340800000` → `2025-07-12 20:00:00` | |
 
-The commands leave your editor untouched and place the combined text on the clipboard, ready to paste.
+The commands paste the converted value into your active text field and also copy it to the clipboard for easy access.
 
 ---
-
-## Installation
-
-```bash
-git clone https://github.com/your-handle/raycast-utc-epoch-converter.git
-cd raycast-utc-epoch-converter
-npm install
-npm run dev   # opens Raycast in develop mode
-```
 
 ## Assign a hotkey
 1. Open Raycast preferences.
